@@ -32,7 +32,7 @@ spec:
               protocol: TCP
               name: http
         - name: halyard
-          image: armory/halyard:operator-70c2a04
+          image: armory/halyard:operator-93709f5
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8064
